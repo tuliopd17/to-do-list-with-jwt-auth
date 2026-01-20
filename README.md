@@ -424,25 +424,3 @@ to-do-list/
 ✅ Arquitetura em camadas  
 ✅ Padrão DTO (não expõe entidades JPA)  
 ✅ Segurança com Spring Security 6  
-
-## 📝 Notas Importantes
-
-- O token JWT expira após 24 horas (86400000 ms) por padrão. Isso pode ser configurado em `application.properties`.
-- A chave secreta do JWT está configurada em `application.properties`. **Em produção, use uma chave segura e armazene-a de forma segura (variáveis de ambiente, secrets manager, etc.)**.
-- O H2 Database é em memória, então os dados são perdidos ao reiniciar a aplicação. Use PostgreSQL para persistência real.
-
-## 🤝 Contribuindo
-
-Este é um projeto de portfólio, mas sugestões e melhorias são bem-vindas!
-
-## 📄 Licença
-
-Este projeto é de código aberto e está disponível para uso educacional e de portfólio.
-
-## 👨‍💻 Autor
-
-Desenvolvido como projeto de portfólio demonstrando habilidades em Java, Spring Boot e desenvolvimento de APIs RESTful.
-
----
-
-**Desenvolvido com ❤️ usando Spring Boot**
